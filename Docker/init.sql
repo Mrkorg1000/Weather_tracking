@@ -1,0 +1,3 @@
+ALTER USER postgres WITH ENCRYPTED PASSWORD 'postgres';
+CREATE DATABASE weather_db;
+GRANT ALL PRIVILIGES ON DATABASE weather_db TO postgres;
